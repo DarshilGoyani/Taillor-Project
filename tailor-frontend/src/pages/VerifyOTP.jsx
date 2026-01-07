@@ -4,12 +4,6 @@ import toast from "react-hot-toast";
 // 1:30 = 90 seconds
 
 
-/**
- * OTPVerification.jsx
- * Premium Tailor Brand - Secure Entrance System
- * Optimized for: 1366x768+ (No Scroll)
- */
-
 const OTPVerification = () => {
   const [otp, setOtp] = useState(['', '', '', '', '', '']);
   const [timer, setTimer] = useState(90);
